@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: white;
+	background-image: url("fondo2.jpg");
+}
+#container{
+	width: 70%;
+	border: 0px solid black;
+	margin:auto;
+}
+header{
+	border-radius: 15px;
+	/*height: 70px;
+	width: 100%;*/
+	line-height: 70px;
+	padding-left: 100px; 
+	background:#4169E1;
+	margin: 0px
+}
+
+nav ul li{
+	float: left;
+	color: black;
+	line-height: 20px;
+	margin: 10px;
+}
+
+a{
+	color: black;
+}
+
+nav{
+	border-radius: 15px;
+	width: 95%;
+	background: #87CEEB;
+	height: 50px;
+	padding-left: 5%;
+}
+
+.art{
+	/*border-radius: 15px;*/
+	text-align: center;
+	width: 60%;
+	min-height: 400px;
+	float: left;
+	background:#4682B4;
+	/*background: #4682B4;*/
+	padding-left: 5%;
+	padding-right: 5%;
+	margin:auto;
+}
+.art2{
+	/*border-radius: 15px;*/
+	line-height: 30px;
+	width: 60%;
+	min-height: 400px;
+	float: left;
+	background: #4682B4;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin:auto;
+}
+#contenido2{
+	background: red;
+	width: 100%;
+}
+img{
+	border-radius: 15px;
+}
+table {
+   width: 100%;
+   border: 1px solid #999;
+   text-align: left;
+   border-collapse: collapse;
+   margin: 0 0 1em 0;
+   caption-side: top;
+   border-radius: 15px;
+   background-image: url("fondo2.jpg");
+   line-height: 40px;
+}
+caption, td, th {
+   padding: 0.3em;
+}
+th, td {
+   border-bottom: 1px solid #999;
+   width: 25%;
+}
+caption {
+   font-weight: bold;
+   font-style: italic;
+}
+
+aside{
+	color: white;
+	padding-top: 30px;
+	width: 30%;
+	min-height: 370px;
+	float:right;
+	background: gray;
+	/*border-radius: 15px;*/
+}
+
+
+footer{
+	line-height: 30px;
+	background: gray;
+	text-align: center;
+	color: white;
+	border-radius: 15px;
+}
+
+.divider{
+	clear:both;
+}
